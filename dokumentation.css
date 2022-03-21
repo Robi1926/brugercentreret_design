@@ -1,0 +1,17 @@
+#kampagne .splash_billede {
+  margin-top: -50px;
+  transform: rotate(180deg);
+}
+
+#kampagne h1 {
+  text-align: center;
+  color: #24f21d;
+  font-size: 6rem;
+  margin: 40px;
+}
+h2,
+h3,
+h4,
+h5 {
+  color: #f2e41d;
+}
