@@ -50,14 +50,14 @@ header {
 }
 
 nav {
-  margin-right: 640px;
+  margin-right: 540px;
 }
 
 nav ul {
   display: flex;
   list-style-type: none;
-  gap: 30px;
-  margin-top: 25px;
+  gap: 200px;
+  margin-top: 20px;
 }
 
 a {
