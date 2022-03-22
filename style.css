@@ -23,6 +23,11 @@
   }
 }
 
+@font-face {
+  font-family: Druk;
+  src: url(Druk_Family/Druk-BoldItalic.woff);
+}
+
 img {
   max-width: 100%;
 }
@@ -56,9 +61,10 @@ nav ul {
 }
 
 a {
-  font-family: ;
+  font-family: Druk;
   text-decoration: none;
   color: #2a23ff;
+  font-size: 1.7rem;
 }
 
 .logo {
