@@ -45,14 +45,14 @@ header {
 }
 
 nav {
-  margin-right: 640px;
+  margin-right: 540px;
 }
 
 nav ul {
   display: flex;
   list-style-type: none;
-  gap: 30px;
-  margin-top: 25px;
+  gap: 200px;
+  margin-top: 20px;
 }
 
 a {
@@ -60,6 +60,13 @@ a {
   font-style: italic;
   text-decoration: none;
   color: #2a23ff;
+  font-size: 1.7rem;
+}
+
+a:hover {
+  font-family: Druk;
+  text-decoration: none;
+  color: black;
   font-size: 1.7rem;
 }
 
