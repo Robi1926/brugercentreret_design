@@ -2,7 +2,7 @@
 @media (max-width: 600px) {
   .hidden {
     opacity: 0;
-    transform: translate(-100%);
+    transform: translate(400%);
   }
 
   #menu {
@@ -12,12 +12,12 @@
   }
 
   #menuknap {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-left: 300px;
   }
 
   .hiddenHeader {
-    height: 80px;
+    height: 60px;
   }
 }
 
