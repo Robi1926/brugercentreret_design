@@ -97,7 +97,7 @@ a:hover {
   background-color: black;
   background-size: contain;
   background-size: 50%;
-  background-position: 0% 100%;
+  background-position: 0% 80%;
 }
 p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -135,7 +135,7 @@ p {
     background-color: black;
     background-size: contain;
     background-size: 50%;
-    background-position: 0% 100%;
+    background-position: 0% 73%;
   }
   .splash {
     width: 100%;
@@ -232,25 +232,59 @@ p {
   }
 }
 
+@media (max-width: 900px) {
+  footer {
+    color: #f2e41d;
+    background-color: #2a23ff;
+  }
+
+  #kontakt {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .social {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .face {
+    width: 5%;
+  }
+
+  .insta {
+    width: 10%;
+  }
+
+  .logoer {
+    gap: 40px;
+    padding: 40px;
+    text-align: center;
+  }
+  .logo1 {
+    padding-bottom: 20px;
+  }
+
+  .logo2 {
+    width: 70%;
+  }
+}
 @media (min-width: 900px) {
   footer {
     background-color: #2a23ff;
     padding: 80px;
     color: #f2e41d;
     display: flex;
-    justify-content: space-between;
   }
 
-  .kontakt {
-    margin-top: 20px;
+  #kontakt {
+    font-size: 1.2rem;
   }
 
   .social {
-    display: flex;
-    gap: 15px;
-    margin-left: -10px;
+    margin-left: 50px;
   }
-
   .face {
     width: 20%;
   }
@@ -258,45 +292,14 @@ p {
   .insta {
     width: 40%;
   }
-
   .logoer {
-    display: flex;
-    padding-right: 250px;
-    gap: 40px;
+    margin-left: 350px;
+  }
+  .logo1 {
+    margin-right: 50px;
   }
 }
 
-footer {
-  background-color: #2a23ff;
-  padding: 40px;
-  color: #f2e41d;
-}
-
-#kontakt {
-  padding-bottom: 20px;
-}
-
-.social {
-}
-
-.face {
-  width: 5%;
-}
-
-.insta {
-  width: 10%;
-  margin-left: 10px;
-}
-.logoer {
-  width: 40%;
-  margin-top: 20px;
-  display: flex;
-  gap: 40px;
-}
-
-.logo1 {
-  margin-bottom: 20px;
-}
 h3 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
