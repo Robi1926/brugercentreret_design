@@ -64,7 +64,8 @@ a {
 }
 
 a:hover {
-  font-family: Druk;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
   text-decoration: none;
   color: black;
   font-size: 1.7rem;
@@ -84,6 +85,9 @@ a:hover {
   background-size: contain;
   background-size: 50%;
   background-position: 0% 100%;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 #video img {
@@ -181,6 +185,8 @@ footer {
 }
 
 h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
   color: #f2e41d;
 }
 
