@@ -22,6 +22,15 @@
     display: none;
   }
 }
+#kampagne {
+  width: 100%;
+  height: 1500vh;
+  background-image: url(grob_text.png);
+  background-color: black;
+  background-size: contain;
+  background-size: 50%;
+  background-position: 0% 100%;
+}
 
 #kampagne .splash_billede {
   margin-top: -50px;
