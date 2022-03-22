@@ -67,6 +67,13 @@ a {
   font-size: 1.7rem;
 }
 
+a:hover {
+  font-family: Druk;
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+}
+
 .logo {
   margin-top: 10px;
   margin-bottom: 10px;
