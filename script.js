@@ -10,6 +10,7 @@ function toggleMenu() {
   console.log("toggleMenu");
 
   document.querySelector("#menu").classList.toggle("hidden");
+  document.querySelector("header").classList.toggle("hiddenHeader");
 
   let erSkjult = document.querySelector("#menu").classList.contains("hidden");
 

@@ -10,6 +10,15 @@
     transition: transform 0.3s;
     transform-origin: top right;
   }
+
+  #menuknap {
+    font-size: 4rem;
+    margin-left: 300px;
+  }
+
+  .hiddenHeader {
+    height: 80px;
+  }
 }
 
 @media (min-width: 600px) {
@@ -20,6 +29,10 @@
 
   #menuknap {
     display: none;
+  }
+
+  .hiddenHeader {
+    height: auto;
   }
 }
 
@@ -41,18 +54,34 @@ header {
   position: sticky;
   background-color: #f2e41d;
   z-index: 2;
+  justify-content: space-between;
+}
+
+nav {
+  margin-right: 540px;
 }
 
 nav ul {
   display: flex;
   list-style-type: none;
-  gap: 30px;
-  margin-top: 25px;
+  gap: 200px;
+  margin-top: 20px;
 }
 
 a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
   text-decoration: none;
   color: #2a23ff;
+  font-size: 1.7rem;
+}
+
+a:hover {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
 }
 
 .logo {
@@ -69,6 +98,9 @@ a {
   background-size: contain;
   background-size: 50%;
   background-position: 0% 100%;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .splash {
@@ -266,6 +298,8 @@ footer {
   margin-bottom: 20px;
 }
 h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
   color: #f2e41d;
 }
 
