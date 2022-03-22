@@ -41,6 +41,11 @@ header {
   position: sticky;
   background-color: #f2e41d;
   z-index: 2;
+  justify-content: space-between;
+}
+
+nav {
+  margin-right: 640px;
 }
 
 nav ul {
@@ -51,6 +56,7 @@ nav ul {
 }
 
 a {
+  font-family: ;
   text-decoration: none;
   color: #2a23ff;
 }
