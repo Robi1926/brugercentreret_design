@@ -28,11 +28,6 @@
   }
 }
 
-@font-face {
-  font-family: Druk;
-  src: url(Druk_Family/Druk-BoldItalic.woff);
-}
-
 img {
   max-width: 100%;
 }
@@ -66,14 +61,16 @@ nav ul {
 }
 
 a {
-  font-family: Druk;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
   text-decoration: none;
   color: #2a23ff;
   font-size: 1.7rem;
 }
 
 a:hover {
-  font-family: Druk;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
   text-decoration: none;
   color: black;
   font-size: 1.7rem;
@@ -93,6 +90,9 @@ a:hover {
   background-size: contain;
   background-size: 50%;
   background-position: 0% 100%;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 #video img {
@@ -190,6 +190,8 @@ footer {
 }
 
 h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
   color: #f2e41d;
 }
 
