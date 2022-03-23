@@ -28,18 +28,18 @@
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: rgb(245, 245, 169); /* Set a background color */
-  color: rgb(108, 26, 150); /* Text color */
+  background-color: #2a23ff; /* Set a background color */
+  color: #f2e41d; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
-  font-family: "Orbitron", sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 #myBtn:hover {
-  background-color: rgb(108, 26, 150); /* Add a dark-grey background on hover */
-  color: rgb(245, 245, 169);
+  background-color: black; /* Add a dark-grey background on hover */
+  color: #f2e41d;
 }
 
 @media (min-width: 600px) {
