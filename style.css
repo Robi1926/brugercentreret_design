@@ -126,6 +126,29 @@ p {
   border-radius: 20px;
   padding: 50px;
 }
+
+.form {
+  margin-left: 390px;
+  margin-top: 50px;
+  display: grid;
+  gap: 20px;
+}
+
+label {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.submit {
+  margin-left: 70px;
+  background-color: #f2e41d;
+  border: none;
+  color: rgb(42, 35, 255);
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media (min-width: 900px) {
   #kampagne {
     height: 400vh;
