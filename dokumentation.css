@@ -2,13 +2,18 @@
 @media (max-width: 600px) {
   .hidden {
     opacity: 0;
-    transform: translate(-100%);
+    transform: translate(400%);
   }
 
   #menu {
     display: inline-block;
     transition: transform 0.3s;
     transform-origin: top right;
+  }
+
+  #menuknap {
+    font-size: 3rem;
+    margin-left: 300px;
   }
 }
 
@@ -20,6 +25,10 @@
 
   #menuknap {
     display: none;
+  }
+
+  .hiddenHeader {
+    height: auto;
   }
 }
 
