@@ -20,6 +20,27 @@
     height: 60px;
   }
 }
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(245, 245, 169); /* Set a background color */
+  color: rgb(108, 26, 150); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  font-family: "Orbitron", sans-serif;
+}
+
+#myBtn:hover {
+  background-color: rgb(108, 26, 150); /* Add a dark-grey background on hover */
+  color: rgb(245, 245, 169);
+}
 
 @media (min-width: 600px) {
   #menu.hidden {
