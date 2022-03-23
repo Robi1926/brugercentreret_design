@@ -73,6 +73,8 @@ h4,
 h5 {
   color: #f2e41d;
   padding: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
 }
 @media (min-width: 600px) {
   #kampagne h1 {
