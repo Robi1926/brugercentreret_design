@@ -128,29 +128,29 @@ p {
   padding: 50px;
 }
 
-.form {
-  margin-left: 390px;
-  margin-top: 50px;
-  display: grid;
-  gap: 20px;
-}
-
-label {
-  color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.submit {
-  margin-left: 70px;
-  background-color: #f2e41d;
-  border: none;
-  color: rgb(42, 35, 255);
-  padding: 16px 32px;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 @media (min-width: 900px) {
+  .form {
+    margin-left: 390px;
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+  }
+
+  label {
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .submit {
+    margin-left: 70px;
+    background-color: #f2e41d;
+    border: none;
+    color: rgb(42, 35, 255);
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
   #kampagne {
     height: 400vh;
     background-image: url(grob_text.png);
@@ -227,6 +227,7 @@ label {
     grid-row: 3/4;
   }
 }
+
 @media (max-width: 900px) {
   .formal {
     padding-top: 80px;
@@ -255,9 +256,7 @@ label {
   .tekst3 {
     padding-top: 10px;
   }
-}
 
-@media (max-width: 900px) {
   footer {
     color: #f2e41d;
     background: rgb(42, 35, 255);
@@ -315,6 +314,27 @@ label {
   .logo2 {
     width: 130px;
     padding-top: 10px;
+  }
+
+  .form {
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+  }
+
+  label {
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .submit {
+    margin-left: 70px;
+    background-color: #f2e41d;
+    border: none;
+    color: rgb(42, 35, 255);
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
 @media (min-width: 900px) {
