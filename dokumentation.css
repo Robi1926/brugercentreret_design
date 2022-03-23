@@ -33,8 +33,7 @@
 }
 
 #kampagne {
-  width: 100%;
-  height: 1500vh;
+  height: 470vh;
   background-image: url(grob_text.png);
   background-color: black;
   background-size: contain;
@@ -89,13 +88,18 @@ h5 {
     padding-bottom: 100px;
   }
 
-  .socialemedier {
+  .instagram {
     display: flex;
     max-width: 30%;
     gap: 50px;
   }
   .feedback {
     padding-top: 20px;
+  }
+  .facebook {
+    display: flex;
+    max-width: 50%;
+    gap: 20px;
   }
 }
 
@@ -110,7 +114,12 @@ h5 {
     border-radius: 20px;
     padding: 50px;
   }
-  .socialemedier {
+
+  #kampagne {
+    height: 350vh;
+  }
+  .facebook {
+    padding-top: 20px;
   }
 
   .feedback {
