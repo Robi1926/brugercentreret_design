@@ -129,7 +129,6 @@ p {
 }
 @media (min-width: 900px) {
   #kampagne {
-    width: 100%;
     height: 400vh;
     background-image: url(grob_text.png);
     background-color: black;

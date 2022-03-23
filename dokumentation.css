@@ -42,21 +42,18 @@
   background-position: 0% 100%;
 }
 #indhold {
-  background-color: rgba(90, 84, 196, 0.8);
+  background-color: rgba(42, 35, 255, 0.39);
   backdrop-filter: blur(10px);
   backdrop-filter: brightness(-16px);
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
   padding-bottom: 100px;
-  border-radius: 20px;
-  padding: 50px;
+  border-radius: 10px;
 }
 #indhold img {
-  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  margin: 20px;
 }
 
 #kampagne .splash_billede {
@@ -82,5 +79,41 @@ h5 {
   #kampagne h1 {
     font-size: 6rem;
     margin: 40px;
+  }
+}
+@media (min-width: 900px) {
+  .video_kampagne {
+    display: flex;
+    max-width: 50%;
+    gap: 30px;
+    padding-bottom: 100px;
+  }
+
+  .socialemedier {
+    display: flex;
+    max-width: 30%;
+    gap: 50px;
+  }
+  .feedback {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  #indhold {
+    background-color: rgba(42, 35, 255, 0.39);
+    backdrop-filter: blur(10px);
+    backdrop-filter: brightness(-16px);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+    padding: 50px;
+  }
+  .socialemedier {
+  }
+
+  .feedback {
+    padding-top: 20px;
   }
 }
