@@ -91,7 +91,7 @@ a:hover {
 }
 
 #kampagne {
-  height: 300vh;
+  height: 340vh;
   background-image: url(grob_text.png);
   background-color: black;
   background-size: contain;
@@ -151,7 +151,7 @@ label {
 
 @media (min-width: 900px) {
   #kampagne {
-    height: 400vh;
+    height: 430vh;
     background-image: url(grob_text.png);
     background-color: black;
     background-size: contain;
